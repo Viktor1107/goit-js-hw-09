@@ -50,6 +50,9 @@ a:hover {
 .gallery-image:hover {
   transform: scale(1.1);
 }
+  .simple-lightbox{
+    background: rgba(46, 47, 66, 0.8)
+  }
 
 /* Form */
 
@@ -93,6 +96,13 @@ body {
     flex-direction: column;
     gap: 8px;
 }
+.feedback-form input:hover{
+  border: 1px solid #000;
+}
+
+.feedback-form input:active{
+  border: 1px solid #808080;
+}
 
 .feedback-form button {
   display: block;
@@ -113,6 +123,6 @@ body {
 }
 
 .feedback-form button:hover {
-  background-color: #0056b3;
+  background: #6c8cff;
 }
 

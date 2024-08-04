@@ -90,5 +90,6 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
   captionPosition: 'bottom',
+  className: 'simple-lightbox',
 });
 // console.log(SimpleLightbox);
